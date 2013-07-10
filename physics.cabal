@@ -1,0 +1,20 @@
+name:                physics
+version:             0.1.0.0
+synopsis:            Physics engine in Haskell
+-- description:         
+license:             BSD3
+license-file:        LICENSE
+author:              Jason Dagit
+maintainer:          dagitj@gmail.com
+-- copyright:           
+category:            Game
+build-type:          Simple
+cabal-version:       >=1.8
+
+library
+  ghc-options:         -O2 -Wall
+  exposed-modules:     Numeric.Physics.Particle
+  -- other-modules:       
+  hs-source-dirs:      src
+  build-depends:       base >= 3 && < 5
+                     , lin-alg
